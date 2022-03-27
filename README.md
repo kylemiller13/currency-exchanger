@@ -2,7 +2,7 @@
 
 #### By Kyle Miller
 
-#### A website which a user can use to determine the exchange value for any amount of US Currency.
+#### A website which a user can choose a selected currency and will get the exchange value for the amount the user has inputted.
 
 ## Technologies Used
 
@@ -19,7 +19,7 @@
 
 ## Description:
 
-_A website that takes in a user dollar amount and chooses which currency it should be converted to, such as Japanese Yen, Mexican Peso, etc._
+_A website that takes in a users amount in a selected currency and chooses what the user wants their amount to be converted to, such as Japanese Yen, Mexican Peso, etc._
 
 ## Setup/Installation Requirements
 * _Navigate to https://www.exchangerate-api.com/ and apply for a free API key using your email address_
