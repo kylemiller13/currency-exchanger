@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+}
+body{
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em
+}
+
