@@ -3,20 +3,30 @@
 </head>
 <body>
   <div class="container">
-    <h1>Get exchange rates for any currenct you want!</h1>
-    <!-- enter currency -->
-    <label for="money">Convert USD to:</label>
-    <input id="money" type="text">
+    <h1>Currency Converter</h1>
     <label for="cash">Choose your currency</label>
+    <select id="foreignCurrencyTo">
+      <option value="FJD">Fiji Dollar</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="MXN">Mexican Peso</option>
+      <option value="SGD">Singapore Dollar</option>
+      <option value="UAH">Ukrainian Hryvnia</option>
+      <option value="USD">United States</option>
+    </select>
     <select id="currency">
       <option value="FJD">Fiji Dollar</option>
       <option value="JPY">Japanese Yen</option>
       <option value="MXN">Mexican Peso</option>
       <option value="SGD">Singapore Dollar</option>
       <option value="UAH">Ukrainian Hryvnia</option>
+      <option value="USD">United States</option>
     </select>
+    <!-- enter currency -->
+    <div class="result">
+    <input id="money" type="number">
       <!-- button -->
       <button class="btn-success" id="displayCurrency">Convert</button>
+    </div>
       <!-- display info -->
       <div class="showDollar"></div>
       <div class="showErrors"></div>
